@@ -20,7 +20,7 @@ let package = Package(
             resources: [
                 .process("Assets")
             ],
-            publicHeadersPath: "Sources"
+            publicHeadersPath: "."
         )
     ]
 )
