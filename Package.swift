@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "YouTubeiOSPlayerHelper",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -20,7 +20,7 @@ let package = Package(
             resources: [
                 .process("Assets")
             ],
-            publicHeadersPath: "."
+            publicHeadersPath: "Sources"
         )
     ]
 )
